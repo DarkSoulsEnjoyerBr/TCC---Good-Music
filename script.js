@@ -258,7 +258,7 @@
 
     // Carrega background padrão quando página abre
     window.addEventListener('load', () => {
-        setVisualizerBackground('img/sunshine.jpg')
+        setVisualizerBackground('sunshine.jpg')
     });
 
     function loadMusic(categoryKey, idx, element) {
