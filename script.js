@@ -14,13 +14,13 @@
             icon: "💀",
             color: "#FF00CC",
             songs: [
-                { name: "Canibal Corpse - Scourge of Iron", file: "music/metal_1.mp3" },
-                { name: "Korn - Blind", file: "music/metal_2.mp3" },
-                { name: "Slipknot - Psychosocial", file: "music/metal_3.mp3" },
-                { name: "System of a Down - Chop Suey", file: "music/metal_4.mp3" },
-                { name: "Three Days Grace - Animal I Have Become", file: "music/metal_5.mp3" },
-                { name: "Devil May Cry - Rollin", file: "music/metal_6.mp3" },
-                { name: "Skillet - Monster", file: "music/metal_7.mp3" }
+                { name: "Canibal Corpse - Scourge of Iron", file: "metal_1.mp3" },
+                { name: "Korn - Blind", file: "metal_2.mp3" },
+                { name: "Slipknot - Psychosocial", file: "metal_3.mp3" },
+                { name: "System of a Down - Chop Suey", file: "metal_4.mp3" },
+                { name: "Three Days Grace - Animal I Have Become", file: "metal_5.mp3" },
+                { name: "Devil May Cry - Rollin", file: "metal_6.mp3" },
+                { name: "Skillet - Monster", file: "metal_7.mp3" }
             ]
         },
         eletronica: {
@@ -28,13 +28,13 @@
             icon: "⚙️",
             color: "#00D9FF",
             songs: [
-                { name: "Cartoon - On & On", file: "music/electronic_1.mp3" },
-                { name: "David Guetta Feat. Kid Cudi - Memories", file: "music/electronic_2.mp3" },
-                { name: "Erika - I Don't Know", file: "music/electronic_3.mp3" },
-                { name: "Jim Yosef - Link [NCS Release]", file: "music/electronic_4.mp3" },
-                { name: "Marshmello - Alone", file: "music/electronic_5.mp3" },
-                { name: "Martin Garrix - Animals", file: "music/electronic_6.mp3" },
-                { name: "Spektrem - Shine", file: "music/electronic_7.mp3" }
+                { name: "Cartoon - On & On", file: "electronic_1.mp3" },
+                { name: "David Guetta Feat. Kid Cudi - Memories", file: "electronic_2.mp3" },
+                { name: "Erika - I Don't Know", file: "electronic_3.mp3" },
+                { name: "Jim Yosef - Link [NCS Release]", file: "electronic_4.mp3" },
+                { name: "Marshmello - Alone", file: "electronic_5.mp3" },
+                { name: "Martin Garrix - Animals", file: "electronic_6.mp3" },
+                { name: "Spektrem - Shine", file: "electronic_7.mp3" }
             ]
         },
         pop: {
@@ -42,13 +42,13 @@
             icon: "🎤",
             color: "#9900FF",
             songs: [
-                { name: "Calvin Harris - Feel So Close", file: "music/pop_1.mp3" },
-                { name: "Lady Gaga - Judas", file: "music/pop_2.mp3" },
-                { name: "Mark Ronson - Uptown Funk", file: "music/pop_3.mp3" },
-                { name: "Maroon 5 - Sugar", file: "music/pop_4.mp3" },
-                { name: "NSYNC - Bye Bye Bye", file: "music/pop_5.mp3" },
-                { name: "OneRepublic - Counting Stars", file: "music/pop_6.mp3" },
-                { name: "The Weeknd - Save Your Tears", file: "music/pop_7.mp3" }
+                { name: "Calvin Harris - Feel So Close", file: "pop_1.mp3" },
+                { name: "Lady Gaga - Judas", file: "pop_2.mp3" },
+                { name: "Mark Ronson - Uptown Funk", file: "pop_3.mp3" },
+                { name: "Maroon 5 - Sugar", file: "pop_4.mp3" },
+                { name: "NSYNC - Bye Bye Bye", file: "pop_5.mp3" },
+                { name: "OneRepublic - Counting Stars", file: "pop_6.mp3" },
+                { name: "The Weeknd - Save Your Tears", file: "pop_7.mp3" }
             ]
         }
     };
