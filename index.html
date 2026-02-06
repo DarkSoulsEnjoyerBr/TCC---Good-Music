@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Music — Premium</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="splash" class="splash">
+        <div class="logo-wrapper">
+            <svg viewBox="0 0 1400 400" xmlns="http://www.w3.org/2000/svg" class="logo-svg">
+                <defs>
+                    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#FF00CC" />
+                        <stop offset="100%" stop-color="#9900FF" />
+                    </linearGradient>
+                    <filter id="ultraGlow">
+                        <feGaussianBlur stdDeviation="15" result="blur" />
+                        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                    </filter>
+                </defs>
+                <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="logo-text" filter="url(#ultraGlow)">
+                    GOOD MUSIC
+                </text>
+            </svg>
+        </div>
+    </div>
+
+    <main class="app hidden" id="app">
+        <nav id="mainNav">
+            <div class="nav-content">
+                <div class="brand-box">
+                    <h1 class="brand">♪ Good Music</h1>
+                    <div class="status-badge">
+                        <span class="dot"></span>
+                        <p id="track-display">SISTEMA PRONTO</p>
+                    </div>
+                </div>
+
+                <div class="menu-categories">
+                    <div class="category-menu" id="categoryMenu">
+                        <!-- Categorias serão inseridas aqui -->
+                    </div>
+                    <div style="margin-left:16px; display:flex; align-items:center;">
+                        <button id="settingsBtn" class="category-btn" title="Configurações">⚙️ Configurações</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <section class="visualizer-stage">
+            <div class="canvas-frame">
+                <div class="visualizer-bg" id="visualizerBg"></div>
+                <canvas id="visualizer"></canvas>
+            </div>
+            <audio id="audio" crossorigin="anonymous"></audio>
+        </section>
+
+        <!-- Barra de Progresso e Tempo -->
+        <div class="progress-bar-section">
+            <input type="range" id="progressBar" class="progress-bar" min="0" max="100" value="0">
+            <div class="time-display">
+                <span id="currentTime">0:00</span>
+                <span class="time-separator">/</span>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+
+        <!-- Controles de Reprodução -->
+        <div class="player-controls">
+            <button id="prevBtn" class="control-btn" title="Retroceder 10s">
+                <span>⏮ -10s</span>
+            </button>
+            <button id="playPauseBtn" class="control-btn primary" title="Play/Pausa">
+                <span id="playPauseIcon">▶</span>
+            </button>
+            <button id="nextBtn" class="control-btn" title="Avançar 10s">
+                <span>+10s ⏭</span>
+            </button>
+            <button id="loopBtn" class="control-btn" title="Loop">
+                <span id="loopIcon">🔁</span>
+            </button>
+        </div>
+
+        <footer class="footer-bar">
+            <p>Gabriel Pereira — 2026</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
